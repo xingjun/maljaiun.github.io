@@ -1,65 +1,64 @@
-body {
-	margin: 0;
-	padding: 0;
-	background: #FFFFEE;
-	font-size: 12px;
-	overflow: auto;
-}
-
-#mainDiv{
-	width: 500px;
-	height: 1000px;
-}
-
-
-
-
-#code {
-	float: left;
-	width: 880px;
-	height: 400px;
-	color: #fff;
-	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
-	font-size: 24px;
-}
-
+body{
+    margin:0;
+    padding:0;
+    background:#ffe;
+    font-size:12px;
+    overflow:auto}
+/*#mainDiv{width:100%;height:100%}*/
+#tree{float:left;width:500px;height:800px}
+#loveHeart{float:left;width:670px;height:625px}
+#garden{width:100%;height:100%}
+#elapseClock{text-align:right;font-size:18px;margin-top:10px;margin-bottom:10px}
+#words{font-family:"sans-serif";width:500px;font-size:24px;color:#666}
+#messages{display:none}
+#elapseClock .digit{font-family:"digit";font-size:36px}
+#loveu{padding:5px;font-size:22px;margin-top:80px;margin-right:120px;text-align:right;display:none}
+#loveu .signature{margin-top:10px;font-size:20px;font-style:italic}
+#clickSound{display:none}
+#code{float:left;margin-left:500px;
+    margin-top:1000px;
+    width: 880px;
+    height: 1400px;
+    color: #fff;
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+    font-size: 24px;}
 #code .string{
-	color: #2a36ff;
+    color: #2a36ff;
 }
 
 #code .keyword{
-	color: #d038a5;
-	font-weight:bold;
+    color: #d038a5;
+    font-weight:bold;
 }
 
 #code .placeholder{
-	margin-left:15px;
+    margin-left:15px;
 }
 
 #code .space{
-	margin-left:7px;
+    margin-left:7px;
 }
 
 #code .comments{
-	color: #49d256;
+    color: #49d256;
 }
 
 #copyright{
-	margin-top: 10px;
-	text-align: center;
-	width:100%;
-	color:#666;
+    margin-top: 10px;
+    text-align: center;
+    width:100%;
+    color:#666;
 }
 
 #errorMsg{
-	width: 100%;
-	text-align: center;
-	font-size: 24px;
-	position: absolute;
-	top: 100px;
-	left:0px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    top: 100px;
+    left:0px;
 }
 
 #copyright a{
-	color:#666;
+    color:#666;
 }
